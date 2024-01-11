@@ -2,7 +2,7 @@
 """ Basic annotations - sum_list """
 
 
-def sum_list(input_list: float) -> float:
+def sum_list(input_list: list[float]) -> float:
     """ Returns the sum of all elements of a list """
     return sum(input_list)
 
